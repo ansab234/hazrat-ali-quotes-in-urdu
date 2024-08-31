@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="activities.MainActivity"
+    android:background="#0A0A06">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="Hazrat Ali Quotes"
+        android:onClick="click"
+        android:textColor="#fff"
+        android:textAllCaps="true"
+        android:fontFamily="serif"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:background="@drawable/blue_custom_button"
+        android:layout_marginTop="50sp"
+        android:id="@+id/main"
+        />
+
+<!--    <Button-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:text="Rate Us"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:layout_below="@+id/main"-->
+<!--        android:textColor="#fff"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/custom_button"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:id="@+id/rate_me"-->
+<!--        android:onClick="rate_btn"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:text="Privacy Policy"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@+id/rate_me"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#fff"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/custom_button"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:id="@+id/pp"-->
+<!--        android:onClick="pp_btn"-->
+
+<!--        />-->
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="More Apps"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_below="@+id/main"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="10dp"
+        android:id="@+id/more"
+        android:onClick="more_btn"
+
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Share"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_below="@+id/more"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Share"
+        android:textColor="#fff"
+        android:onClick="share_btn"
+
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Exit"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_below="@+id/Share"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="10dp"
+        android:id="@+id/exit"
+        android:textColor="#fff"
+        android:onClick="exit_btn"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/banner_container"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        />
+
+</RelativeLayout>

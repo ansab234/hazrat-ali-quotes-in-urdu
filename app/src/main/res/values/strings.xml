@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hazrat Ali Quotes</string>
+
+    <string name="inter_ad">354948436409710_354958719742015</string>
+    <string name="banner_ad">354948436409710_354957833075437</string>
+
+
+    <string name="facebook_app_id">354948436409710</string>
+    <string name="fb_login_protocol_scheme">fb354948436409710</string>
+    <string name="facebook_client_token">6779a4c9317b1c153891ecd9e40f16cc</string>
+    <string name="appId">ca-app-pub-6623154944244578~5826024903</string>
+
+</resources>

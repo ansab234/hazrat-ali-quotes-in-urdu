@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "738821622018",
+    "firebase_url": "https://hazrat-ali-quotes-a7b8c.firebaseio.com",
+    "project_id": "hazrat-ali-quotes-a7b8c",
+    "storage_bucket": "hazrat-ali-quotes-a7b8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738821622018:android:88be357b8564332f645a1b",
+        "android_client_info": {
+          "package_name": "com.ansab.hazrataliquotesinurdu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738821622018-o4oc9atgreilu6t83b96dljmhkh99me8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ansab.hazrataliquotesinurdu",
+            "certificate_hash": "4c2e89d2638ced563a446705bbb06ab240c389d9"
+          }
+        },
+        {
+          "client_id": "738821622018-ake83766eml3lpj4bm162h7c5r91q2rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEFLB6p_p6n5NeWl-T3j9qWYKTGTLHOAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738821622018-ake83766eml3lpj4bm162h7c5r91q2rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
