@@ -59,12 +59,12 @@ public class MainActivity extends AppCompatActivity {
 
         Intent i = new Intent(MainActivity.this, imagesActivity.class);
 
-        AdsManager.showInterstitialAd(this, new AdsCallBack() {
-            @Override
-            public void onClosed() {
-                startActivity(i);
-            }
-        });
+//        AdsManager.showInterstitialAd(this, new AdsCallBack() {
+//            @Override
+//            public void onClosed() {
+//                startActivity(i);
+//            }
+//        });
 
         Bundle bundle = new Bundle();
         bundle.putString("Read_Quotes","Quotes Read Start Button");

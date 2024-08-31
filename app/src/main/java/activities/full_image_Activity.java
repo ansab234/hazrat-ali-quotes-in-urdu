@@ -115,12 +115,12 @@ public class full_image_Activity extends AppCompatActivity {
             bitmap.compress(Bitmap.CompressFormat.JPEG, 100, fileOutputStream);
             makeText(this, "Image Saved in Gallery!", LENGTH_SHORT).show();
 
-            AdsManager.showInterstitialAd(this, new AdsCallBack() {
-                @Override
-                public void onClosed() {
-
-                }
-            });
+//            AdsManager.showInterstitialAd(this, new AdsCallBack() {
+//                @Override
+//                public void onClosed() {
+//
+//                }
+//            });
 
 
             Bundle bundle = new Bundle();

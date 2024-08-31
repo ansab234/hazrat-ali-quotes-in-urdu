@@ -7,7 +7,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
     defaultConfig {
 
         manifestPlaceholders = [
@@ -16,12 +16,11 @@ android {
                 onesignal_google_project_number: 'REMOTE'
         ]
 
-
         applicationId "com.ansab.hazrataliquotesinurdu"
-        minSdkVersion 19
-        targetSdkVersion 33
-        versionCode 24
-        versionName "1.2.4"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 25
+        versionName "1.2.5"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
 
@@ -61,12 +60,12 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.15.1'
 
     //fb monetization ads
-    implementation 'androidx.annotation:annotation:1.6.0'
+    implementation 'androidx.annotation:annotation:1.8.2'
     implementation 'com.facebook.android:audience-network-sdk:6.14.0'
 
 
-    implementation 'androidx.work:work-runtime:2.8.1'
-    implementation 'com.google.android.gms:play-services-ads:22.2.0'
+    implementation 'androidx.work:work-runtime:2.9.1'
+    implementation 'com.google.android.gms:play-services-ads:23.3.0'
 //    // fb advertising ads
 //    implementation 'com.facebook.android:facebook-android-sdk:16.1.3'
 
