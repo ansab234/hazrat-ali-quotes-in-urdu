@@ -4,6 +4,12 @@
     <string name="inter_ad">354948436409710_354958719742015</string>
     <string name="banner_ad">354948436409710_354957833075437</string>
     <string name="appId">ca-app-pub-6623154944244578~5826024903</string>
+
+
+<!--    admob test  ids-->
+<!--    <string name="inter_ad">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="banner_ad">ca-app-pub-3940256099942544/9214589741</string>-->
+<!--    <string name="appId">ca-app-pub-3940256099942544~3347511713</string>-->
     <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
 
 

@@ -30,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
         AdsManager.loadInterstitial(this);
 
 
-
-        firebaseAnalytics=FirebaseAnalytics.getInstance(this);
+        firebaseAnalytics = FirebaseAnalytics.getInstance(this);
         AdsManager.loadBannerAd(this, findViewById(R.id.banner_container));
 
 
@@ -58,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
     public void click(View view) {
 
         Intent i = new Intent(MainActivity.this, imagesActivity.class);
+        startActivity(i);
 
 //        AdsManager.showInterstitialAd(this, new AdsCallBack() {
 //            @Override
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 //        });
 
         Bundle bundle = new Bundle();
-        bundle.putString("Read_Quotes","Quotes Read Start Button");
+        bundle.putString("Read_Quotes", "Quotes Read Start Button");
         firebaseAnalytics.logEvent("start_button", bundle);
 
     }
