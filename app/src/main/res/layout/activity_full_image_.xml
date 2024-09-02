@@ -8,22 +8,22 @@
     tools:context="activities.full_image_Activity">
 
 
-    <com.agrawalsuneet.dotsloader.loaders.LazyLoader
-        android:id="@+id/dotsloader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_margin="10dp"
-        android:layout_marginTop="30dp"
-        app:lazyloader_animDur="300"
-        app:lazyloader_dotsDist="10dp"
-        app:lazyloader_dotsRadius="7dp"
-        app:lazyloader_firstDelayDur="150"
-        app:lazyloader_firstDotColor="#fff"
-        app:lazyloader_interpolator="@android:anim/decelerate_interpolator"
-        app:lazyloader_secondDelayDur="300"
-        app:lazyloader_secondDotColor="#fff"
-        app:lazyloader_thirdDotColor="#fff" />
+<!--    <com.agrawalsuneet.dotsloader.loaders.LazyLoader-->
+<!--        android:id="@+id/dotsloader"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        app:lazyloader_animDur="300"-->
+<!--        app:lazyloader_dotsDist="10dp"-->
+<!--        app:lazyloader_dotsRadius="7dp"-->
+<!--        app:lazyloader_firstDelayDur="150"-->
+<!--        app:lazyloader_firstDotColor="#fff"-->
+<!--        app:lazyloader_interpolator="@android:anim/decelerate_interpolator"-->
+<!--        app:lazyloader_secondDelayDur="300"-->
+<!--        app:lazyloader_secondDotColor="#fff"-->
+<!--        app:lazyloader_thirdDotColor="#fff" />-->
 
     <com.github.chrisbanes.photoview.PhotoView
         android:id="@+id/viewImage"
