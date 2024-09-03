@@ -20,7 +20,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 
-import com.ansab.hazrataliquotesinurdu.BuildConfig;
 import com.ansab.hazrataliquotesinurdu.R;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.SimpleTarget;
@@ -28,6 +27,7 @@ import com.bumptech.glide.request.transition.Transition;
 //import com.github.chrisbanes.photoview.BuildConfig;
 import com.github.chrisbanes.photoview.PhotoView;
 import com.google.firebase.analytics.FirebaseAnalytics;
+import com.squareup.picasso.BuildConfig;
 import com.squareup.picasso.Picasso;
 
 import java.io.File;
